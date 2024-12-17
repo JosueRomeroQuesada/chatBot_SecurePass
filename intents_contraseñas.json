@@ -1,0 +1,171 @@
+{
+    "intents": [
+        {
+            "tag": "crear_contraseña_segura",
+            "patterns": [
+                "Dame una contraseña segura",
+                "Genera una contraseña fuerte para mí",
+                "Crea una contraseña difícil de adivinar",
+                "Hazme una clave segura",
+                "Necesito una contraseña única y fuerte",
+                "Crea una contraseña compleja para proteger mi cuenta",
+                "Haz una clave aleatoria y difícil de hackear",
+                "Quiero una contraseña imposible de adivinar"
+            ],
+            "responses": [
+                "Aquí tienes una contraseña segura que he generado para ti: 'Xy$9Zf@2#Tb1'. Usa combinaciones de letras, números y símbolos para mayor seguridad.",
+                "Tu nueva contraseña aleatoria es: 'T!f7Kp@wZ9Sh'. Es fuerte y única. ¡Guárdala en un lugar seguro!",
+                "He creado una contraseña segura para ti: 'Hb^6Jk9LpZ3Y'. ¿Necesitas otra? Solo dímelo.",
+                "Aquí tienes una contraseña robusta: 'Qw*4Zp#5yHp9'. ¡Perfecta para proteger tus cuentas!",
+                "Tu contraseña segura es: 'Gv1!E9r@Wx3L'. No olvides mantenerla a salvo."
+            ]
+        },
+        {
+            "tag": "verificacion_revision_contraseña",
+            "patterns": [
+                "¿Puedes revisar mi contraseña?",
+                "Revise esta contra",
+                "¿Me ayudas a verificar si esta contraseña es segura?",
+                "¿Revisas si mi contraseña es lo suficientemente fuerte?",
+                "¿Cómo verificas si esta contraseña es segura?",
+                "¿Puedes analizar mi contraseña para saber si es robusta?",
+                "Revisa si esta contraseña cumple con los estándares de seguridad",
+                "¿Es esta contraseña segura? Aquí está: [mi_contraseña]",
+                "¿Esta clave es fuerte? Revísala, por favor"
+            ],
+            "responses": [
+                "Puedes usar herramientas como 'How Secure Is My Password' para evaluar la fortaleza de tu contraseña. Verifica que no haya sido comprometida en 'Have I Been Pwned'.",
+                "Asegúrate de que tu contraseña tenga al menos 12 caracteres e incluya letras en mayúsculas y minúsculas, números y símbolos. ¡Eso la hará mucho más fuerte!",
+                "Una buena contraseña debe ser única para cada cuenta y no seguir patrones predecibles. Si tienes dudas, cámbiala por una más robusta.",
+                "Tu contraseña debe evitar secuencias comunes como '1234' o tu fecha de nacimiento. Hazla lo más aleatoria posible."
+            ]
+        },
+        {
+            "tag": "requisitos_contraseña",
+            "patterns": [
+                "¿Qué debe contener una contraseña segura?",
+                "¿Cuáles son los requisitos de una contraseña fuerte?",
+                "¿Cómo hacer una contraseña difícil de adivinar?",
+                "¿Qué hace a una contraseña segura?",
+                "¿Cómo puedo saber si mi contraseña es segura?"
+            ],
+            "responses": [
+                "Una contraseña segura debe tener al menos 12 caracteres y una combinación de letras mayúsculas, minúsculas, números y símbolos. Evita palabras comunes, fechas o nombres.",
+                "Recuerda que una contraseña fuerte no debe tener patrones predecibles y debe ser única para cada cuenta."
+            ]
+        },
+        {
+            "tag": "cambiar_contraseña",
+            "patterns": [
+                "¿Cómo cambio mi contraseña?",
+                "¿Qué hago si olvidé mi contraseña?",
+                "¿Cómo restablezco mi clave?",
+                "Olvidé mi contraseña, ¿qué hago ahora?",
+                "¿Puedo cambiar mi contraseña en cualquier momento?"
+            ],
+            "responses": [
+                "Dirígete a la configuración de tu cuenta y selecciona 'Cambiar contraseña'. Si la olvidaste, utiliza la opción 'Recuperar contraseña' para restablecerla mediante tu correo o móvil.",
+                "Para cambiar tu contraseña, ve a la sección de seguridad de tu cuenta y selecciona 'Cambiar contraseña'. Sigue las instrucciones para establecer una nueva."
+            ]
+        },
+        {
+            "tag": "mejorar_seguridad",
+            "patterns": [
+                "¿Cómo mejorar la seguridad de mi cuenta?",
+                "¿Qué medidas debo tomar para proteger mi contraseña?",
+                "¿Qué es la verificación en dos pasos?",
+                "¿Cómo puedo proteger mejor mis cuentas en línea?",
+                "¿De qué forma puedo fortalecer la seguridad de mi cuenta?"
+            ],
+            "responses": [
+                "Activa la verificación en dos pasos (2FA) para añadir una capa adicional de seguridad. Además, usa contraseñas únicas y complejas para cada cuenta.",
+                "Usa contraseñas fuertes, cambia tus contraseñas regularmente y habilita la verificación en dos pasos para mejorar la seguridad."
+            ]
+        },
+        {
+            "tag": "gestión_contraseñas",
+            "patterns": [
+                "¿Qué es un gestor de contraseñas?",
+                "¿Cómo organizar mis contraseñas de forma segura?",
+                "¿Es confiable usar gestores de contraseñas?",
+                "¿Cómo puedo gestionar mis contraseñas de manera segura?",
+                "¿Son seguros los gestores de contraseñas?"
+            ],
+            "responses": [
+                "Un gestor de contraseñas almacena y organiza tus claves de forma segura. Facilita el uso de contraseñas únicas y robustas para cada cuenta.",
+                "Los gestores de contraseñas son herramientas seguras y eficaces para gestionar tus contraseñas. Ayudan a mantenerlas organizadas y protegidas."
+            ]
+        },
+        {
+            "tag": "actualizar_contraseña",
+            "patterns": [
+                "¿Con qué frecuencia debo cambiar mi contraseña?",
+                "¿Es importante actualizar mis contraseñas regularmente?",
+                "¿Cada cuánto debo cambiar mi contraseña?",
+                "¿Con qué frecuencia debo cambiar las contraseñas de mis cuentas?"
+            ],
+            "responses": [
+                "Cambia tus contraseñas cada 3-6 meses, especialmente si las usas en múltiples sitios. Hazlo de inmediato si sospechas de un acceso no autorizado.",
+                "Para mayor seguridad, es recomendable cambiar tus contraseñas periódicamente, especialmente si has sido víctima de un ataque de phishing."
+            ]
+        },
+        {
+            "tag": "contraseña_y_seguridad_en_red",
+            "patterns": [
+                "¿Cómo proteger mis contraseñas al usar Wi-Fi público?",
+                "¿Es seguro escribir contraseñas en computadoras públicas?",
+                "¿Qué debo hacer para proteger mis contraseñas en línea?",
+                "¿Cómo proteger mis contraseñas al usar redes Wi-Fi abiertas?",
+                "¿Es seguro acceder a mis cuentas desde Wi-Fi público?"
+            ],
+            "responses": [
+                "Evita ingresar contraseñas en computadoras públicas o redes Wi-Fi abiertas. Usa una VPN para asegurar tus conexiones y mantén tus dispositivos actualizados.",
+                "Almacena tus contraseñas en servicios confiables con encriptación. Habilita autenticación de dos factores para mayor seguridad."
+            ]
+        },
+        {
+            "tag": "recuperar_cuenta_hackeada",
+            "patterns": [
+                "¿Qué hacer si hackearon mi cuenta?",
+                "¿Cómo recupero mi cuenta comprometida?",
+                "¿Qué pasos seguir si mi cuenta fue hackeada?",
+                "¿Cómo saber si mi cuenta ha sido hackeada?",
+                "¿Qué hacer si alguien accedió a mi cuenta sin mi permiso?"
+            ],
+            "responses": [
+                "Si tu cuenta fue hackeada, cambia la contraseña de inmediato y habilita la autenticación en dos pasos. Revisa la actividad reciente y cierra sesiones en dispositivos desconocidos.",
+                "Contacta con el soporte técnico del servicio y reporta el problema. Si usas la misma contraseña en otros sitios, cámbiala también.",
+                "Escanea tu dispositivo con un antivirus confiable para detectar malware que pueda haber facilitado el hackeo."
+            ]
+        },
+        {
+            "tag": "contraseña_y_privacidad",
+            "patterns": [
+                "¿Cómo proteger mi privacidad con contraseñas?",
+                "¿Qué hacer para mantener mis cuentas privadas y seguras?",
+                "¿Cómo evitar que alguien acceda a mis datos personales?",
+                "¿Cómo proteger mis cuentas en redes sociales?"
+            ],
+            "responses": [
+                "Usa contraseñas fuertes y únicas para cada cuenta. Complementa esto con autenticación en dos pasos y un gestor de contraseñas para mayor privacidad.",
+                "Evita compartir información personal públicamente y asegúrate de mantener tu software actualizado para proteger tus datos en línea."
+            ]
+        },
+        {
+            "tag": "desconocido",
+            "patterns": [
+                "No entiendo",
+                "No respondiste mi pregunta",
+                "Eso no me queda claro",
+                "¿Puedes explicarlo mejor?",
+                "No sé qué hacer ahora",
+                "Eso no es lo que pedí"
+            ],
+            "responses": [
+                "Lo siento, no entendí tu pregunta. ¿Puedes explicarlo con más detalle?",
+                "No estoy seguro de cómo responder eso. ¿Podrías intentar decirlo de otra forma?",
+                "¡Gracias por tu paciencia! Intenta plantearlo de otra manera y estaré encantado de ayudarte."
+            ]
+        }
+    ]
+}
